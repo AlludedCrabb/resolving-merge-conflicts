@@ -4,11 +4,11 @@ class Snake:
 
 
 class Cobra(Snake):
-    """Definitely dangerous, yup."""
+    """Definitely dangerous, yup. More dangerous than telling your mother you're not coming home for christmas"""
     
     def bite(self, other):
         """Deliver a dose of venom."""
-        pass
+        return "Help. Oh no. I'm dying. Tell my mother, I should have come homefor christmas"
 
     
 class BoaConstrictor(Snake):
